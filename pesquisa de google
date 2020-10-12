@@ -1,0 +1,13 @@
+$deletecommand
+$nomention
+$authorIcon[https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2000px-Google_%22G%22_Logo.svg.png]
+$argsCheck[>1;🎀| Por favor Fale oq Devo Pesquisar]
+$title[Pesquisa Google]
+$color[00CC00]
+$description[
+Pesquisa:
+https://www.google.com/search?q=$replaceText[$message; ;+;-1]
+Pesquisa: **$message**
+Autor: **$username**]
+$footer[✨| Obg por Usar meus comandos]
+Google 
